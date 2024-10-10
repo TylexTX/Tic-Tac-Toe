@@ -5,22 +5,22 @@ body {
 p {
     text-align: center;
     font-size: 10vh;
-    margin-top: 5vh;
+    margin-top: 4vh;
     margin-bottom: 0px;
 }
 
 table {
-    margin: 2vh auto 0px;
+    margin: 1vh auto 0px;
     border-collapse: collapse;
 }
 
 td {
     background-color: #a0a0a0;
-    width: 20vh;
-    height: 20vh;
+    width: 16vh;
+    height: 16vh;
     border: 0.75vh solid #000000;
     text-align: center;
-    font-size: 12.5vh;
+    font-size: 10vh;
     user-select: none;
     font-family: 'Helvetica';
 }
@@ -31,7 +31,7 @@ td:hover {
 
 button {
     display: block;
-    margin: 5vh auto;
+    margin: 4vh auto;
     font-size: 5vh;
     padding: 1vh;
     border: 0.4vh solid #000000;
