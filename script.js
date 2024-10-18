@@ -51,15 +51,15 @@ function click(event) {
                 squares[id] = "O";
                 player = true;
             }
-            if (lt != "" &&
-                mt != "" &&
-                rt != "" &&
-                lm != "" &&
-                mm != "" &&
-                rm != "" &&
-                lb != "" &&
-                mb != "" &&
-                rb != ""
+            if (squares.lt != "" &&
+                squares.mt != "" &&
+                squares.rt != "" &&
+                squares.lm != "" &&
+                squares.mm != "" &&
+                squares.rm != "" &&
+                squares.lb != "" &&
+                squares.mb != "" &&
+                squares.rb != ""
             ) {
                 document.getElementById("output").innerText = "It's a tie";
                 playing = false;
