@@ -51,6 +51,19 @@ function click(event) {
                 squares[id] = "O";
                 player = true;
             }
+            if (lt != "" ||
+                mt != "" ||
+                rt != "" ||
+                lm != "" ||
+                mm != "" ||
+                rm != "" ||
+                lb != "" ||
+                mb != "" ||
+                rb != ""
+            ) {
+                document.getElementById("output").innerText = "It's a tie";
+                playing = false;
+            }
         }
 
         if (squares.lt != "") {
